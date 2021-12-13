@@ -10656,6 +10656,7 @@ a.view {
 /* our story */
 .our-story {
     box-shadow: 10px -10px 15px -10px grey;
+    padding-bottom: 90px;
 }
 .story {
     padding-left: 20%;
@@ -10727,7 +10728,7 @@ a.view {
 }
 .card-body h4 {
     margin-bottom: 8.7rem;
-    color: #8a8a8a;
+    color: #fff;
     text-align: center;
     font-size: 40px;
     font-weight: bold;
@@ -10736,7 +10737,7 @@ a.view {
      margin-bottom: 15px
  }
  .btn-full {
-     padding: 2rem 21rem;
+     padding: 2rem 17rem;
      background-color: #454344;
      border: none;
  }
@@ -10779,7 +10780,7 @@ a.view {
     margin-left: 1rem;
 }
 .ft-sz-slick {
-    margin-left: 20px;
+    /* margin-left: 20px; */
     font-size: 2.5rem;
     font-weight: 600;
 }
@@ -10805,4 +10806,62 @@ video {
     top: 0;
     left: 0;
     z-index: -1;
+}
+/* responsive */
+@media screen and (max-width:1199px){
+    .topnav{
+        display: none;
+    }
+}
+    
+}
+@media only screen and (max-width: 1024px) {
+    .header-bottom .menu>li>a {
+        color: #000;
+        font-family: sans-serif;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    .upates h2 {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .story-img img {
+        height: 50vh;
+    }
+}
+@media only screen and (max-width:991px) {
+   
+    .posts h4 {
+        position: absolute;
+        top: 23%;
+        left: 30%;
+        font-size: 19px;
+        color: #fff;
+        font-family: sans-serif;
+    }
+    a.audio {
+        font-size: 20px;
+    }
+    .icon img {
+        top:-24px;
+    }
+    .story h3 {
+        font-size: 30px;
+    }
+    .btn-full {
+        padding: 2rem 10rem;
+    }
+    .icon img {
+        width: 30%;
+        left: 33%;
+    }
+    .getpoints {
+       
+        margin-bottom: 40px;
+    }
+    .story-img {
+        padding-top: 30px;
+    }
+    
 }
