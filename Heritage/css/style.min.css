@@ -899,7 +899,7 @@ button.mobile-menu-toggler {
 .header-bottom .menu>li>a {
     color: #000;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     letter-spacing: 1px;
 }
 .header-bottom .menu>li>a.sf-with-ul{
@@ -10656,7 +10656,6 @@ a.view {
 /* our story */
 .our-story {
     box-shadow: 10px -10px 15px -10px grey;
-    padding-bottom: 90px;
 }
 .story {
     padding-left: 20%;
@@ -10728,7 +10727,7 @@ a.view {
 }
 .card-body h4 {
     margin-bottom: 8.7rem;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     font-size: 40px;
     font-weight: bold;
@@ -10737,7 +10736,7 @@ a.view {
      margin-bottom: 15px
  }
  .btn-full {
-     padding: 2rem 17rem;
+     padding: 2rem 15rem;
      background-color: #454344;
      border: none;
  }
@@ -10780,7 +10779,7 @@ a.view {
     margin-left: 1rem;
 }
 .ft-sz-slick {
-    /* margin-left: 20px; */
+  
     font-size: 2.5rem;
     font-weight: 600;
 }
@@ -10807,6 +10806,15 @@ video {
     left: 0;
     z-index: -1;
 }
+
+
+
+/* Responsive */
+
+.read-offers {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 /* responsive */
 @media screen and (max-width:1199px){
     .topnav{
@@ -10829,9 +10837,15 @@ video {
     .story-img img {
         height: 50vh;
     }
+
 }
 @media only screen and (max-width:991px) {
-   
+   .header-bottom .menu>li>a {
+    color: #000;
+    font-family: sans-serif;
+    font-size: 15px !important;
+    letter-spacing: 1px;
+}
     .posts h4 {
         position: absolute;
         top: 23%;

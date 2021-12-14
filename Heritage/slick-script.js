@@ -26,7 +26,7 @@ $('.lead-tstmnl-slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     variableWidth: true,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 4000,
     dots: false,
     arrows: false,

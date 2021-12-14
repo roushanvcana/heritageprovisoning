@@ -1,4 +1,7 @@
-
+/* h2{
+    text-align:center;
+    padding: 20px;
+  } */
   /* Slider */
   
   .slick-slide {
@@ -174,13 +177,13 @@
 .lead-tstmnl-comment {
     float: left;
     display: block;
-    width: 120%;
+    width: 115%;
     position: relative;
-    padding: 30px 0px 0px 0px;    
     max-height: 120px;
     overflow: hidden;
     font-size: 15px;
     line-height: 24px;
+    padding-top: 44px;
 }
 .lead-tstmnl-comment:before,
 .lead-tstmnl-comment:after {
