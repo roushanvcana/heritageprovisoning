@@ -10879,3 +10879,22 @@ video {
     }
     
 }
+@media only screen and (max-width:414px) {
+    .icon img {
+        width: 19%;
+        left: 41%;
+        top: -35px;
+    }
+    .posts h4 {
+        position: absolute;
+        top: 34%;
+        left: 30%;
+        font-size: 35px;
+        color: #fff;
+        font-family: sans-serif;
+    }
+    .story {
+        padding-left: 4%;
+        padding-top: 20%;
+    }
+}
