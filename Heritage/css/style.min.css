@@ -9643,11 +9643,11 @@ a.read::after {
 .icon img {
 	
 }
-a.audio {
-    font-size: 30px;
+.audio {
+    font-size: 22px;
     color: #515151;
     text-align: center !important;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
 }
 
@@ -10674,9 +10674,11 @@ a.view {
     padding: 10px;
 }
 .getpoints h3 {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
     font-size: 19px;
     color: #fff;
-    font-weight: 800;
+    font-weight: 700;
     padding: 10px 0 0 6px;
 }
 
