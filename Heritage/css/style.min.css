@@ -1,4 +1,8 @@
 
+
+
+
+
 html {
 	font-size: 62.5%;
 	font-size-adjust: 100%;
@@ -275,11 +279,11 @@ a.porto-icon:hover {
     display: block;
     padding: 10px 0;
     width: 15%;
-    margin-left: 30px;
+    /* margin-left: 30px; */
 }
 .logo img {
     display: block;
-    /* max-width: 99%; */
+     max-width: 50%; 
 	padding-top: 5px;
     /* height: auto; */
     /* width: auto; */
@@ -10658,7 +10662,7 @@ a.view {
     box-shadow: 10px -10px 15px -10px grey;
 }
 .story {
-    padding-left: 20%;
+    padding-left: 5%;
     padding-top: 20%;
 }
 .story h2 {
@@ -10807,13 +10811,26 @@ video {
     z-index: -1;
 }
 
-
+/*sticky header*/
 
 /* Responsive */
 
 .read-offers {
     padding-top: 40px;
     padding-bottom: 40px;
+}
+.footer_menu {
+  text-align: center;
+}
+.footer_menu ul {
+
+}
+.footer_menu li {
+ display:inline-block;
+ text-align: center;
+}
+.footer_menu li a {
+
 }
 /* responsive */
 @media screen and (max-width:1199px){
@@ -10822,7 +10839,7 @@ video {
     }
 }
     
-}
+
 @media only screen and (max-width: 1024px) {
     .header-bottom .menu>li>a {
         color: #000;
@@ -10839,7 +10856,92 @@ video {
     }
 
 }
-@media only screen and (max-width:991px) {
+@media only screen and (max-width:991px){
+
+    video{
+        height: 50vh;
+    }
+
+    .ft-sz-slick {
+        font-size: 20px;
+    }
+
+    .slider-padding-bg{
+        margin-bottom: 10px;
+    }
+
+    .footer-logo.text-center img{
+        width: 35%;
+    }
+  
+    .pipeline {
+        font-size: 10px;
+
+    }
+
+    span.ft-margin-left {
+         margin-left: 0; 
+        font-size: 10px;
+    }
+
+    .card .new-banner {
+        margin: 40px;
+    }
+  
+    .card .new-banner .card-body h1{
+        font-size: 18px;
+    }
+
+    .card .new-banner .card-body h2{
+        font-size: 18px;
+    }
+
+    .story-img img {
+        height: 40vh;
+    }
+
+    a.view{
+        font-size: 10px;
+    }
+
+    .story h2{
+        font-size: 22px;
+    }
+
+    .story h3{
+        font-size: 22px;
+    }
+    .story p {
+        font-size: 14px;
+    }
+
+    .earn h2 {
+        font-size: 23px;
+    }
+
+    .posts {
+        margin: 35px;
+    }
+
+    .upates h2 {
+        font-size: 28px;
+    }
+    .getpoints {
+        margin: 10px 48px 0;
+    }
+    .footer_menu {
+        text-align: left;
+      }
+    .footer_menu li {
+        display: inline-grid;
+        padding-left: 16px;
+        text-align: left;
+    }
+
+    .footer_menu li a{
+      font-size: 10px;
+      padding: 10px;
+    }
    .header-bottom .menu>li>a {
     color: #000;
     font-family: sans-serif;
@@ -10859,9 +10961,6 @@ video {
     }
     .icon img {
         top:-24px;
-    }
-    .story h3 {
-        font-size: 30px;
     }
     .btn-full {
         padding: 2rem 10rem;
@@ -10895,3 +10994,89 @@ video {
     }
   
 }
+
+
+/* *******************carousel********************** */
+
+@media (min-width: 768px) {
+
+    /* show 3 items */
+    .carousel-inner .active,
+    .carousel-inner .active + .carousel-item,
+    .carousel-inner .active + .carousel-item + .carousel-item,
+    .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item  {
+        display: block;
+    }
+    
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item,
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
+        transition: none;
+    }
+    
+    .carousel-inner .carousel-item-next,
+    .carousel-inner .carousel-item-prev {
+      position: relative;
+      transform: translate3d(0, 0, 0);
+    }
+    
+    .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -25%;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    
+    /* left or forward direction */
+    .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    .carousel-item-next.carousel-item-left + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    
+    /* farthest right hidden item must be abso position for animations */
+    .carousel-inner .carousel-item-prev.carousel-item-right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    
+    /* right or prev direction */
+    .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .carousel-item-prev.carousel-item-right + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(50%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+
+}
+
+
+ /* Bootstrap Lightbox using Modal */
+
+#profile-grid { overflow: auto; white-space: normal; } 
+#profile-grid .profile { padding-bottom: 40px; }
+#profile-grid .panel { padding: 0 }
+#profile-grid .panel-body { padding: 15px }
+#profile-grid .profile-name { font-weight: bold; }
+#profile-grid .thumbnail {margin-bottom:6px;}
+#profile-grid .panel-thumbnail { overflow: hidden; }
+#profile-grid .img-rounded { border-radius: 4px 4px 0 0;}
+
+
+/* *******************carousel********************** */
