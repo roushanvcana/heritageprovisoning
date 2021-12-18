@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+body {
+	overflow-x: hidden;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+.logo_brand {
+	width: 7%;
+}
+.orignal {
+    background: #5c5b5b;
+    border-top: 1px solid #ffffff5c;
+    padding: 10px 0;
+}
+.orignal h3 {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    margin-left: 0;
+    color: #fff;
+    line-height: inherit;
+    text-align: center;
+}
+.posts {
+    position: relative;
+}
+.posts h4 {
+    position: absolute;
+    top: 33%;
+    left: 33%;
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+.audio {
+    font-size: 22px;
+    color: #515151;
+    text-align: center !important;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.post {
+    text-align: center;
+    padding: 10px 0 0;
+}
+.view {
+    padding: 1rem 2rem;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+  
+    background-color: #fd7613;
+    color: #fff;
+    border: 0;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-weight: 700;
+    border: 2px solid #000;
+}
+.getpoints {
+    background-color: #90ab4a;
+    padding: 42px 10px;
+    border: 5px solid #d7d6d6;
+}
+.getpoints h3 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 19px;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 0 0 6px;
+}
+.icon img {
+    width: 30%;
+    position: absolute;
+    top: -55px;
+    left: 34%;
+    background-color: #fff;
+    border: 5px solid #d7d6d6;
+    border-radius: 35%;
+    padding: 10px;
+}
+.earn {
+    text-align: center;
+    padding-bottom: 80px;
+}
+.News.Stylish {
+    padding: 0 0 50px;
+}
