@@ -4,6 +4,7 @@
 
 
 html {
+	
 	font-size: 62.5%;
 	font-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
@@ -11,6 +12,7 @@ html {
 }
 
 body {
+	width: 100%;
 	background-color: #fff;
 	color: #767f84;
 	font-weight: 400;
@@ -9188,7 +9190,68 @@ tbody .product-col{
 }
 /*# sourceMappingURL=style.min.css.map */
 
+/**/
 
+
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot.owl-nav {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    background-color: var(--base-color) !important;
+    display: block;
+    padding: 0 .3em !important;
+    font-size: 3em;
+    margin: 0;
+    cursor: pointer;
+    color: #fff;
+    transform: translate(-50%, -50%);
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot.owl-nav {
+    position: absolute;
+    right: -23px;
+    top: 50%;
+    background-color: var(--base-color) !important;
+    display: block ;
+    padding: 0 .3em !important;
+    font-size: 3em ;
+    margin: 0;
+    cursor: pointer;
+    color: #fff;
+    transform: translate(-50%, -50%);
+}
+
+
+.deals .owl-carousel .item img{
+   /* width: 80px;*/
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.owl-theme .owl-nav [class*=owl-]:hover{
+    background-color: #fff;
+}
+
+
+.deals .owl-carousel .item figure {
+    margin: 0;
+}
+
+.deals .owl-carousel .item figure a {
+    display: block;
+    text-align: center;
+    max-width: 100%;
+    transition: all 0.3s;
+    padding: 3em;
+    text-decoration: none;
+    color: #565a5c;
+}
+
+.deals .owl-carousel .item figure a:hover {
+    box-shadow: 0 11px 13.35px 1.65px rgba(148,148,148,0.23);
+    transform: scale(1.1);
+}
 /* support start */
 .support.col-lg-8 {
     display: flex;
@@ -9826,7 +9889,14 @@ a.acc {
 }
 .deals {
     text-align: center;
-	padding-top:100px;
+	padding:0 0 80px;
+}
+.our-brand h4 {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 34px;
+    font-weight: 700;
+    color: #fff;
 }
 .deals h4 {
     font-size: 16px;
@@ -10616,12 +10686,13 @@ h2.project-title1 {
 
 /* New section */
 .posts h4 {
-    position: absolute;
-    top: 33%;
-    left: 33%;
+    position: relative;
+    top: -150px;
+    left: 0;
     font-size: 30px;
     color: #fff;
     font-family: sans-serif;
+    text-align: center;
 }
 .post {
     text-align: center;
@@ -10750,9 +10821,9 @@ a.view {
      height: auto
  }
 
- .owl-carousel .item {
-    margin: 3px;
-    width: 50%;
+.owl-carousel .item {
+    margin: 0 30px;
+    /* width: 80%; */
 }
 .card-body h4 {
     margin-bottom: 8.7rem;
