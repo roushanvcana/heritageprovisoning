@@ -15,13 +15,18 @@
 @import url('font-awesome.min.css');
 @import url('animate.min.css');
 @import url('../plugins/prettyPhoto_compressed_3.1.6/css/prettyPhoto.css');
+@import url('http://fonts.cdnfonts.com/css/arial');
+                             
+
+                
 /***********************************
 --01-GLOBAL STYLE START---
 ***********************************/
 
-body {
+body {  
 	overflow-x: hidden;
-	font-family: 'Open Sans', sans-serif;
+	font-family : 'Arial' , sans-serif ;                                               
+	/* font-family: 'Open Sans', sans-serif; */
 	background: #fff;
 	margin: 0px;
 	padding: 0px;
@@ -40,7 +45,7 @@ a, a:hover, a:active, a:focus {
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	padding: 0;
-	font-family: 'Open Sans', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 	text-transform: capitalize;
 	font-weight: 700;
 }
@@ -64,7 +69,7 @@ p:last-child {
 	margin-bottom: 0px;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Open Sans', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 	font-weight: 700;
 }
 h3 {
@@ -100,7 +105,7 @@ a.view-all {
 	width: 159px;
 	text-align: center;
 	color: #ad6334;
-	font-family: 'Open Sans', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 	font-size: 16px;
 	line-height: 54px;
 }
@@ -328,9 +333,14 @@ h4.fnt28.mar_btm {
 h4.fnt28.mar_btm1 {
 	margin-bottom: 28px;
 }
-.wdt_100 {
+
+.wdt_100{
 	width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0px 50px 0px 50px;
 }
+
 p.fnt17 {
 	font-size: 17px;
 	color: #727272;
@@ -543,7 +553,7 @@ a:focus {
 	font-size: 14px;
 	color: #85a820;
 	font-weight: 700;
-	font-family: 'Open Sans', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 }
 .hdr_top_variation4 ul li p {
 	font-size: 15px;
@@ -648,8 +658,8 @@ a:focus {
 #main-navigation-wrapper .nav > li > a {
 	padding: 4px 0;
 	font-size: 18px;
-	font-family: "Raleway", sans-serif;
-	font-weight: bold;
+	font-family : 'Arial' , sans-serif ;                                                                                                                    
+	font-weight: 500;
 	color: #474747;
 	text-transform: capitalize;
 	padding-right: 20px;
@@ -732,7 +742,7 @@ a:focus {
 	text-transform: capitalize;
 }
 #main-navigation-wrapper .dropdown-submenu > li a:hover, #main-navigation-wrapper .dropdown-submenu > li a:active, #main-navigation-wrapper .dropdown-submenu > li a:focus {
-	color: #9acc41;
+	color: #444;
 	background: #33381e;
 }
 #main-navigation-wrapper .dropdown-submenu > li:last-child a {
@@ -767,6 +777,7 @@ a.hdr_mob_get_quote_btn {
 .stripe_notification h3 {
 	font-size: 30px;
 	font-weight: 600;
+	font-family : 'Arial' , sans-serif ;  
 	margin: 0;
 	color: #fff;
 	text-align: center;
@@ -877,7 +888,7 @@ a.var4_request_btn {
 	text-transform: uppercase;
 	line-height: 48px;
 	text-decoration: none;
-	font-family: 'Raleway', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 }
 a.var4_request_btn:hover {
 	background: #000;
@@ -891,7 +902,7 @@ a.var5_request_btn {
 	text-transform: uppercase;
 	line-height: 64px;
 	text-decoration: none;
-	font-family: 'Raleway', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 	width: 235px;
 }
 #main-navigation-wrapper.variation2_navbar.variation4_navbar.navbar-default {
@@ -1034,7 +1045,7 @@ a.var5_request_btn {
 	color: #fff;
 	font-weight: 800;
 	letter-spacing: 1.3px;
-	font-family: 'Raleway', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 	line-height: 52px;
 	text-transform: uppercase;
 	margin-bottom: 11px;
@@ -1331,7 +1342,7 @@ a.view-all.slide_learn_btn.view_project_btn {
 	-webkit-transition: -webkit-transform 0.55s;
 	transition: transform 0.55s;
 	line-height: 37px;
-	font-family: 'Open Sans', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 	margin: 86px 0px 74px;
 }
 .var_4_slider .effect-goliath:hover .view_project_btn {
@@ -1347,7 +1358,7 @@ a.view-all.slide_learn_btn.view_project_btn {
 	color: #fff;
 	line-height: 60px;
 	bottom: -60px;
-	font-family: 'Open Sans', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 	font-weight: 700;
 }
 .effect-goliath:hover h6 {
@@ -1455,7 +1466,7 @@ ul.bnr_btm_services li a.knw_more {
 .welcome_dream_txt h5 {
 	font-size: 35px;
 	color: #606060;
-	font-family: 'Open Sans', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 	font-weight: 400;
 	line-height: 54px;
 	margin-bottom: 20px;
@@ -1473,7 +1484,7 @@ ul.bnr_btm_services li a.knw_more {
 a.view_Service {
 	color: #323232;
 	font-size: 20px;
-	font-family: 'Alegreya', serif;
+	font-family : 'Arial' , sans-serif ;  
 	float: right;
 	text-decoration: underline;
 	margin: 5px 0px 0px;
@@ -1518,7 +1529,7 @@ a.get_request {
 	width: 206px!important;
 	font-weight: 700;
 	background: #2a2a2a;
-	font-family: 'Open Sans', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 	color: #fff!important;
 	border-radius: 3px;
 	float: right;
@@ -1551,7 +1562,7 @@ a.get_request:hover {
 	padding: 10px 0px 10px 80px;
 }
 .contact_info ul li.fnt_style {
-	font-family: 'Playball', cursive;
+	font-family : 'Arial' , sans-serif ;  
 }
 .greencnt_map_icon {
 	background: url(../images/home_page3/green_cnt_map_icon.png) no-repeat 0px 8px;
@@ -1612,7 +1623,7 @@ a.view-all.slide_contact_btn.btn_inline {
 	position: relative;
 	border-radius: 5px 5px 0px 0px;
 	font-weight: 800;
-	font-family: 'Raleway', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 }
 .variaion4_request_form h5:after {
 	width: 100%;
@@ -1689,7 +1700,7 @@ a.view-all.slide_contact_btn.btn_inline {
 .subscribe_search .form-control {
 	font-size: 16px;
 	color: #898989;
-	font-family: 'Open Sans', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 	font-weight: 400;
 	background: none;
 	outline: none;
@@ -1707,7 +1718,7 @@ a.view-all.slide_contact_btn.btn_inline {
 	height: 58px;
 	color: #fff;
 	font-size: 16px;
-	font-family: 'Open Sans', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 	text-transform: uppercase;
 	font-weight: 700;
 	float: right;
@@ -1806,7 +1817,7 @@ a.view-all.slide_contact_btn.btn_inline {
 	color: #f9ffa0;
 	font-weight: 700;
 	text-decoration: none;
-	font-family: 'Raleway', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 	text-transform: uppercase;
 	opacity: 0;
 	visibility: hidden;
@@ -1827,6 +1838,7 @@ a.view-all.slide_contact_btn.btn_inline {
 .year_quality.year_quality1 {
 	width: 100%;
 	padding-right: 0px;
+	
 	background: none;
 	margin: 2px 0px 14px;
 	text-align: left;
@@ -1852,7 +1864,7 @@ ul.frthabt_list li h6 {
 	font-size: 16px;
 	color: #404040;
 	font-weight: 700;
-	font-family: 'Open Sans', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 	margin-bottom: 4px;
 }
 ul.frthabt_list li p {
@@ -1907,22 +1919,26 @@ a.view-all.slide_contact_btn.slide_service_btn.get_quote_btn {
     left: 20px;
 }
 .about-style-two h2 {
-	font-family: 'Oswald', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 	font-size: 20px;
 	font-weight: 700;
 	color: #fd7613;padding: 0 0 30px;
 	font-weight: 500;
 }
 .about-style-two h3 {
-	font-family: 'Oswald', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 	font-size: 40px;
 	font-weight: 600;
 	color: #000;
 }
 /*blog*/
-.section-lg {
-    padding-top: 2rem;
-    padding-bottom: 8rem;
+.section-lg{  
+	width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 0px 50px 0px 50px;
+    /* padding-top: 2rem;
+    padding-bottom: 8rem; */
 }
 .section-heading h2 {
     padding: 0 0 30px;
@@ -1936,7 +1952,7 @@ a.view-all.slide_contact_btn.slide_service_btn.get_quote_btn {
     background: #90ab4a;
 }
 .icon-box h2 {
-	font-family: 'Open Sans', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 	text-align: center;
 	font-size: 18px;
 	color: #fff;
@@ -1965,7 +1981,7 @@ a.view-all.slide_contact_btn.slide_service_btn.get_quote_btn {
    
 }
 .blog_bg {
-	padding: 60px 0;
+	padding: 100px;
 }
 .blog-grid {
 	background: #fff;
@@ -2066,7 +2082,7 @@ a.view-all.slide_contact_btn.slide_service_btn.get_quote_btn {
 /*blog*/
 .brand_bg {
 	background: #000;
-	padding: 80px 0;
+	padding: 100px 50px 100px 50px;
 }
 .owl-carousel .item {
 	margin: 3px
@@ -2132,7 +2148,7 @@ a.view-all.slide_contact_btn.slide_service_btn.get_quote_btn {
 .year_quality {
 	font-size: 36px;
 	color: #494949;
-	font-family: 'Open Sans', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 	font-weight: 700;
 	text-align: center;
 	letter-spacing: 0px;
@@ -2180,7 +2196,7 @@ a.view-all.slide_contact_btn.slide_service_btn.get_quote_btn {
 	width: 100%;
 	margin: 0;
 	padding: 109px 0;
-	font-family: 'Open Sans', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 	font-size: 26px;
 }
 .image_hover {
@@ -2245,7 +2261,7 @@ a.view-all.read_btn {
 	font-size: 14px;
 	font-weight: 700;
 	border-radius: 10px;
-	font-family: 'Open Sans', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 }
 a.view-all.read_btn:before {
 	border-radius: 3px;
@@ -2303,7 +2319,7 @@ a.view-all.read_btn:before {
 	line-height: 37px;
 	margin: 0 0 37px;
 	border-radius: 3px;
-	font-family: 'Open Sans', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 	font-size: 14px;
 	background: #b4ce34;
 	color: #fff;
@@ -2329,7 +2345,7 @@ a.view-all.read_btn:before {
 	font-weight: 700;
 	color: #fff;
 	transition: all .3s ease-out;
-	font-family: 'Open Sans', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 	font-size: 15px;
 }
 #photo_gallery .col-lg-2 {
@@ -2608,7 +2624,7 @@ a.view-all.slide_contact_btn.slide_service_btn.margin_rght {
 
 .client_bg {
 	background: #e9e9e9;
-	padding: 60px 0;/*background: url(../images/home_page/client_col_bg.jpg) repeat;*/
+	padding: 50px;/*background: url(../images/home_page/client_col_bg.jpg) repeat;*/
 }
 #client_slider {
 	padding: 0 15px;
@@ -2934,7 +2950,7 @@ ul.blog_list_icon li:after {
 }
 .team_col .team_name {
 	font-size: 25px;
-	font-family: 'Alegreya', serif;
+	font-family : 'Arial' , sans-serif ;  
 	font-weight: 700;
 	color: #fff;
 	width: 100%;
@@ -3141,7 +3157,7 @@ ul.service_nav li {
 	float: left;
 	width: 100%;
 	font-size: 20px;
-	font-family: 'Alegreya', serif;
+	font-family : 'Arial' , sans-serif ;  
 	font-weight: 700;
 	border-bottom: 1px solid #e4e4e4;
 	letter-spacing: 0px;
@@ -3220,7 +3236,7 @@ a.contact_btn:hover {
 .download_brochure_Col h5 {
 	font-size: 24px;
 	color: #404040;
-	font-family: 'Open Sans', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 	font-weight: normal;
 	text-transform: none;
 	letter-spacing: 0px;
@@ -3297,7 +3313,7 @@ ul.law_service_img li.second_img {
 .key_benefit_desc h5 {
 	font-size: 18px;
 	color: #000;
-	font-family: 'Open Sans', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 	text-transform: none;
 	font-weight: normal;
 	margin-bottom: 10px;
@@ -3365,7 +3381,7 @@ ul.key_benefit_list li.wdt_40 {
 	font-size: 24px;
 	color: #fff;
 	font-weight: 700;
-	font-family: 'Open Sans', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 	text-transform: none;
 	line-height: 34px;
 	margin-bottom: 23px;
@@ -3488,7 +3504,7 @@ ul.snow_removal_icon_list li:last-child {
 ul.snow_removal_icon_list li h5 {
 	font-size: 18px;
 	color: #314861;
-	font-family: 'Open Sans', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 	text-transform: none;
 	font-weight: normal;
 	margin-bottom: 10px;
@@ -3631,7 +3647,7 @@ ul.case_study_list li span {
 .news_search .form-control {
 	font-size: 14px;
 	color: #909090;
-	font-family: 'Open Sans', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 	font-style: normal;
 	font-weight: 400;
 	background: none;
@@ -3676,7 +3692,7 @@ ul.case_study_list li span {
 	font-size: 14px;
 	color: #404040;
 	text-transform: none;
-	font-family: 'Open Sans', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 	font-weight: 700;
 	letter-spacing: 0px;
 	line-height: 22px;
@@ -3691,7 +3707,7 @@ ul.case_study_list li span {
 }
 a.download_brochure {
 	background: url(../images/blog_page/download_icon.jpg) no-repeat right top #1d7745;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 	font-size: 22px;
 	color: #fff;
 	float: left;
@@ -3905,7 +3921,7 @@ ul.blog_icon_list li a:hover {
 	list-style: none;
 	float: left;
 	font-size: 12px;
-	font-family: 'Open Sans', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 	font-weight: 700;
 	margin-right: 5px;
 }
@@ -4027,7 +4043,7 @@ ul.blog_icon_list li a:hover {
 	color: #404040;
 	font-size: 15px;
 	font-weight: 600;
-	font-family: 'Open Sans', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 	letter-spacing: 0px;
 	text-transform: none;
 }
@@ -4095,7 +4111,7 @@ ul.prd_cat_list li a {
 	text-align: center;
 	line-height: 77px;
 	font-style: italic;
-	font-family: 'Alegreya', serif;
+	font-family : 'Arial' , sans-serif ;  
 	border-radius: 100%;
 }
 ul.shop_prd_list {
@@ -4142,7 +4158,7 @@ ul.shop_prd_list li h6 {
 ul.shop_prd_list li .prd_price {
 	font-size: 25px;
 	color: #404040;
-	font-family: 'Alegreya', serif;
+	font-family : 'Arial' , sans-serif ;  
 	font-style: italic;
 }
 a.view-all.shop_add_cart {
@@ -4159,7 +4175,7 @@ a.view-all.shop_add_cart {
 	text-transform: uppercase;
 	text-align: center;
 	margin: 7px 0px 0px;
-	font-family: 'Open Sans', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 }
 a.view-all.shop_add_cart:before {
 	border-radius: 3px;
@@ -4200,7 +4216,7 @@ a.view-all.shop_add_cart:before {
 	font-size: 18px;
 	color: #999;
 	float: left;
-	font-family: 'Raleway', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 	margin: 4px 11px 0px 0px;
 }
 .prd_detail_price .price_no {
@@ -4217,7 +4233,7 @@ a.view-all.shop_add_cart:before {
 	font-size: 18px;
 	color: #999;
 	float: left;
-	font-family: 'Raleway', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 	text-align: center;
 }
 a.view-all.shop_add_cart.add_cart_second_btn {
@@ -4280,7 +4296,7 @@ h2.acc_trigger a {
 	color: #404040;
 	font-size: 15px;
 	font-weight: 600;
-	font-family: 'Open Sans', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 }
 h2.active {
 	background: url(../images/product_Detail_page/minus_icon.png) no-repeat 97% 15px;
@@ -4398,7 +4414,7 @@ h2.active {
 	color: #898989;
 	font-weight: 400;
 	text-transform: none;
-	font-family: 'Open Sans', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 	margin: 55px 0px;
 	float: left;
 }
@@ -4409,7 +4425,7 @@ h2.active {
 	float: left;
 	font-size: 16px;
 	color: #242424;
-	font-family: 'Open Sans', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 	font-weight: 400;
 	padding: 5px 22px;
 	margin: 44px 0px;
@@ -4480,7 +4496,7 @@ a.add_cart_btn:hover {
 	padding: 21px 23px 20px;
 	border-bottom: 1px solid #ebebeb;
 	color: #898989;
-	font-family: 'Open Sans', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 }
 .cart_total_col ul {
 	margin: 0px;
@@ -4642,7 +4658,7 @@ ul.order_list li {
 	float: left;
 	font-size: 14px;
 	color: #898989;
-	font-family: 'Raleway', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 	width: 100%;
 	padding: 10px 0px;
 }
@@ -4653,7 +4669,7 @@ ul.order_list li .order_prdt {
 ul.order_list li .order_ttl {
 	width: 25%;
 	float: right;
-	font-family: 'Open Sans', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 }
 .black_clr {
 	color: #242424;
@@ -4674,7 +4690,7 @@ ul.order_list li .fnt_18 {
 .radio.order_radio label {
 	font-weight: 400!important;
 	font-size: 15px;
-	font-family: 'Raleway', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 }
 .radio.order_radio.wdt_1 {
 	width: auto;
@@ -4691,7 +4707,7 @@ a.paypal_link {
 	color: #12a0b1;
 	float: right;
 	margin: 12px 0px 0px;
-	font-family: 'Raleway', sans-serif;
+	font-family : 'Arial' , sans-serif ;  
 }
 a.paypal_link:hover {
 	color: #000;
@@ -4892,7 +4908,7 @@ p.p_mat_btm1 {
 	font-size: 34px;
 	color: #fff;
 	font-style: italic;
-	font-family: 'Alegreya', serif;
+	font-family : 'Arial' , sans-serif ;  
 	font-weight: 700;
 	line-height: 35px;
 	float: left;
@@ -5771,7 +5787,7 @@ a.request_quote {
 	height: 3px;
 }
 .navbar-default .navbar-toggle:hover .icon-bar {
-	background: #557c2a;
+	background: #444;
 }
 .navbar-collapse.collapse {
 	display: none!important;
@@ -5947,6 +5963,41 @@ a.var4_request_btn {
 	background: #fff;
 	box-shadow: 0px 4px 10px #ccc;
 }
+
+/* ****************navbar-toggle-close*********************** */
+
+.navbar-toggle.collapsed span.icon-bar:nth-child(2) {
+	-webkit-transform: translateY(0) rotate(0);
+			transform: translateY(0) rotate(0);
+  }
+  .navbar-toggle.collapsed span.icon-bar:nth-child(3) {
+	opacity: 1;
+  }
+  .navbar-toggle.collapsed span.icon-bar:nth-child(4) {
+	-webkit-transform: translateY(0) rotate(0);
+			transform: translateY(0) rotate(0);
+  }
+  .navbar-toggle span.icon-bar {
+	-webkit-transition: all 300ms;
+	transition: all 300ms;
+  }
+  .navbar-toggle span.icon-bar:nth-child(2) {
+			-webkit-transform: translateY(200%) rotate(45deg);
+			transform: translateY(200%) rotate(45deg);
+			-moz-transform: translateY(200%) rotate(45deg);
+			-ms-transform: translateY(200%) rotate(45deg);
+			-o-transform: translateY(200%) rotate(45deg);
+}
+  .navbar-toggle span.icon-bar:nth-child(3) {
+	opacity: 0;
+  }
+  .navbar-toggle span.icon-bar:nth-child(4) {
+	-webkit-transform: translateY(-300%) rotate(-45deg);
+			transform: translateY(-300%) rotate(-45deg);
+  }
+  
+
+ /* ****************navbar-toggle-close*********************** */ 
 }
 
 @media (min-width: 1200px) {
@@ -7094,6 +7145,7 @@ a.view-all.slide_contact_btn.slide_service_btn.get_quote_btn {
 	 .stripe_notification h3 {
     font-size: 14px;
     font-weight: 600;
+	font-family : 'Arial' , sans-serif ;  
     margin: 0;
     color: #fff;
     text-align: center;
@@ -7184,3 +7236,200 @@ right: 7%!important;
 top: 10px!important;
 }
 }
+
+}
+
+/* about-us  */
+
+.subheader {
+    background-image: url(../images/about/banner1.jpg);
+    padding-top: 146px;
+}
+.subheader .breadcrumb-text {
+    padding: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.text-white {
+    color: #fff!important;
+	margin: 0 0 20px;
+	font-weight: 500;
+}
+
+.subheader .breadcrumb-text ul li {
+    margin-right: 20px;
+    color: #fff;
+    position: relative;
+    font-size: 16px;
+	text-transform: capitalize;
+    font-weight: 500;
+}
+.subheader .breadcrumb-text ul li:after {
+	content: "";
+    position: absolute;
+    right: -12px;
+    top: 4px;
+    width: 2px;
+    height: 15px;
+    background-color: #fff;
+}
+.subheader .breadcrumb-text ul li.active:after {
+    display: none;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay-bg-theme {
+    background: #6eaf4b;
+    opacity: 0.5;
+}
+
+.normal-bg {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: border 0.3s ease-in, box-shadow 0.3s ease-in, background 0.3s, opacity 0.3s ease-in;
+}
+
+.section-padding {
+    padding: 40px 0;
+} 
+
+ul.custom-flex {
+	list-style: none;
+    padding: 0px;
+    margin: 0 0 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.custom-text {
+    justify-content: center;
+}
+
+.text-custom-white {
+    color: #fff;
+    text-transform: capitalize;
+}
+.text-custom-white:hover {
+    color: #000;
+}
+
+/* ****************history*********************** */
+
+.corona-count-sec .corona-count-top {
+    border-bottom: 1px solid #ecf0f3;
+}
+.corona-count-sec .corona-count-top h4 {
+    text-align: center;
+    padding: 15px;
+}
+.corona-count-sec .corona-item .corona-inner {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.corona-count-sec .corona-item .corona-inner .corona-thumb img {
+    width: 70px;
+    height: 70px;
+}
+.corona-count-sec .corona-item .corona-inner .corona-content {
+    margin-left: 15px;
+}
+.corona-count-bottom .content-sec h3 {
+    font-size: 30px;
+}
+.corona-count-bottom .content-sec ul {
+    margin-bottom: 20px;
+}
+.corona-count-bottom .content-sec ul > li {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.corona-count-bottom .content-sec ul > li:before {
+    content: "\f340";
+    font-family: Font Awesome\5 Pro;
+    display: inline-flex;
+    color: #6eaf4b;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.bg-custom-white {
+    background-color: #fff;
+}
+
+.text-custom-black {
+    color: #000;
+}
+.fw-600 {
+    font-weight: 600;
+}
+
+.text-theme {
+    color: #6eaf4b;
+}
+.fw-600 {
+    font-weight: 600;
+}
+.fs-16 {
+    font-size: 16px;
+}
+
+.text-light-white {
+    color: #999;
+}
+
+.about-section {
+    padding: 4em 0;
+}
+.site-title  {
+    padding: 2em 0;
+}
+.site-title h3 {
+    font-size: 3.5em;
+    color: #14B9D5;
+	font-family : 'Arial' , sans-serif ;  
+    font-weight: 700;
+}
+.site-title p {
+    font-size: 1.1em;
+    color: #333333;
+    line-height: 1.8em;
+    margin-top: 0.5em;
+}
+
+.about-inner-column h4 {
+    font-size: 2.5em;
+    color: #FFD001;
+	font-family : 'Arial' , sans-serif ;  
+}
+.about-inner-column p {
+    font-size: 1.1em;
+    color: #333333;
+    line-height: 1.8em;
+    margin: 1em 0 0;
+}
+
+.about-inner-column ul li a {
+    color: #333333;
+    font-size: 1.1em;
+    padding-left: 2em;
+}
+.about-right img {
+    width: 100%;
+}
+
+
+
+/* ****************history*********************** */
+/* about-us  */
