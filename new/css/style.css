@@ -338,8 +338,8 @@ h4.fnt28.mar_btm1 {
 
 .wdt_100{
 	width: 100%;
-    margin-top: 35px;
-    margin-bottom: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     padding: 0px 50px 0px 50px;
 }
 
@@ -611,6 +611,7 @@ a:focus {
 	background: #fff;
 	border: none;
 	min-height: auto;
+	padding: 10px 30px 10px 30px;
 	margin: 0;
 }
 #main-navigation-wrapper .navbar-collapse {
@@ -678,6 +679,7 @@ a:focus {
 #main-navigation-wrapper .navbar-nav {
 	margin-left: 0;
 	margin-right: 0;
+	padding: 0 1rem;
 	float: right;
 }
 #main-navigation-wrapper.navbar-default .navbar-nav > .open > a, #main-navigation-wrapper.navbar-default .navbar-nav > .open > a:focus, #main-navigation-wrapper.navbar-default .navbar-nav > .open > a:hover, #main-navigation-wrapper.navbar-default .navbar-nav > li:hover > a {
@@ -776,7 +778,7 @@ a.hdr_mob_get_quote_btn {
 .stripe_notification {
 	background: #C7A877;
 	border-top: 1px solid #ffffff5c;
-	padding: 20px 0;
+	padding: 10px;
 }
 .stripe_notification h3 {
 	font-size: 15px;
@@ -2015,6 +2017,7 @@ a.view-all.slide_contact_btn.slide_service_btn.get_quote_btn {
 	color: #454343;
 	font-size: 16px;
 	font-weight: 700;
+	font-family : 'Arial' , sans-serif ; 
 	text-transform: uppercase;
 }
 .discretion-blog .btn {
@@ -2099,10 +2102,11 @@ a.view-all.slide_contact_btn.slide_service_btn.get_quote_btn {
 /*blog*/
 .brand_bg {
 	background: #000;
-	padding: 60px 50px 60px 50px;
+	padding: 50px 50px 100px 50px;
 }
 
 .brand_bg .container .row .brand-heading h1{
+	font-family : 'Arial' , sans-serif ; 
 	color: #C7A877;
 	text-align: center;
 	margin: 0 0 20px 0;
@@ -2703,6 +2707,7 @@ a.view-all.slide_contact_btn.slide_service_btn.margin_rght {
 }
 .white_client_txt p{
 	text-align: center;
+	font-family : 'Arial' , sans-serif ; 
 }
 /*.white_client_txt p {
     background: url(../images/home_page/client_quote_bg.png) no-repeat 0px 0px;
@@ -2740,6 +2745,7 @@ a.view-all.slide_contact_btn.slide_service_btn.margin_rght {
 	font-size: 24px;
 	color: #C7A877;
 	font-weight: 600;
+	font-family : 'Arial' , sans-serif ; 
 	text-transform: uppercase;
 }
 
@@ -4976,6 +4982,7 @@ footer {
 	font-size: 16px;
 	color: #fff;
 	padding: 0 40px 0;
+	font-family : 'Arial' , sans-serif ; 
 	text-transform: uppercase;
 }
 footer h6 {
@@ -4984,6 +4991,7 @@ footer h6 {
 	background: url(../images/common_in_all/ftr_head_line.jpg) no-repeat bottom left;
 	padding-bottom: 13px;
 	margin-bottom: 20px;
+	font-family : 'Arial' , sans-serif ; 
 	text-transform: none;
 }
 .ftr_txt_div {
@@ -5092,6 +5100,7 @@ ul.ftr_social li i:hover {
 	font-size: 12px;
 	color: #fff;
 	margin-bottom: 0px;
+	font-family : 'Arial' , sans-serif ; 
 }
 .text-right {
 	float: right;
