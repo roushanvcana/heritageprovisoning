@@ -2280,12 +2280,6 @@ a.view-all.slide_contact_btn.slide_service_btn.get_quote_btn {
    font-size: 20%;
 } */
 
-.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
-    background: 0 0;
-    border: none;
-    padding: 0!important;
-    font: inherit;
-}
 
 .quality-list h5 a {
 	color: #3f3f3f;
@@ -7340,11 +7334,11 @@ top: 10px!important;
 }
 
 .banner-section .video-section{
-	border: 1px  #CCC solid;
 
 	 /* -webkit-box-shadow: 0 8px 6px -6px black;
 	-moz-box-shadow: 0 8px 6px -6px black; */
-		 box-shadow: 0 8px 6px -6px black; 
+	box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 90%);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s; 
 	 /* background-color: #000000;
     opacity: 0.35;
     transition: background 0.3s, border-radius 0.3s, opacity 0.3s; 
