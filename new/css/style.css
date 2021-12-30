@@ -778,6 +778,7 @@ a.hdr_mob_get_quote_btn {
 .stripe_notification {
 	background: #C7A877;
 	border-top: 1px solid #ffffff5c;
+	box-shadow: 10px -10px 15px -10px grey;
 	padding: 10px;
 }
 .stripe_notification h3 {
@@ -2279,11 +2280,18 @@ a.view-all.slide_contact_btn.slide_service_btn.get_quote_btn {
    font-size: 20%;
 } */
 
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background: 0 0;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+}
+
 .quality-list h5 a {
 	color: #3f3f3f;
 }
 .quality-list h5 a:hover {
-	color: #94b200
+	color: #BEC777;
 }
 .quality-list p {
 	font-size: 14px;
@@ -6056,6 +6064,10 @@ a.var4_request_btn {
 	display: none;
    }
 
+   .banner-section .image-box img{
+	   width: 25%;
+   }
+
  /* ****************navbar-toggle-close*********************** */ 
 }
 
@@ -6399,6 +6411,10 @@ a.view-all.slide_contact_btn.slide_service_btn.get_quote_btn {
 .about-style-two .container-fluid .row .side-image{	
 	display: none;
    }
+
+   .banner-section .image-box img{
+	width: 25%;
+}
 }
 
 @media only screen and (min-width: 260px) and (max-width: 767px) {
@@ -7253,6 +7269,10 @@ a.view-all.slide_contact_btn.slide_service_btn.get_quote_btn {
 .about-style-two .container-fluid .row .side-image{	
 	display: none;
    }
+
+   .banner-section .image-box img{
+	width: 25%;
+}
 }
 
 
@@ -7313,15 +7333,42 @@ top: 10px!important;
 
 /* video-section */
 
- /* .video-section{
-	 background-color: #000000;
+.banner-section{
+	 /* width: 100%; 
+	 height: 100vh;  */
+	position: relative;
+}
+
+.banner-section .video-section{
+	border: 1px  #CCC solid;
+
+	 /* -webkit-box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black; */
+		 box-shadow: 0 8px 6px -6px black; 
+	 /* background-color: #000000;
     opacity: 0.35;
     transition: background 0.3s, border-radius 0.3s, opacity 0.3s; 
     top: 0;
     left: 0;
     width: 100%;
+    height: 100%; */
+}  
+
+.banner-section .image-box{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* background: #000;  */
+	width: 100%;
     height: 100%;
-}  */
+	background-color: #000000;
+    opacity: 0.35;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
 
 /* video-section */
 

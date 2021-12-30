@@ -51,10 +51,16 @@
  <h3>NOTIFICATION BAR LINKING TO PAGE OF OUR CHOICE</h3>
 </div>
 <!-- video section start-->
-<video class="video-section" height="100%" width="100%" autoplay loop muted>
- <source src="video/video.mp4" type="video/mp4">
- <source src="movie.ogg" type="video/ogg">
- Your browser does not support the video tag. </video>
+<div class="banner-section">
+    <video class="video-section" height="100%" width="100%" autoplay loop muted>
+        <source src="video/video.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag. </video>
+        <div class="image-box">
+            <img src="./images/logo/footer-logo.png" alt="Image-Logo">
+        </div>
+</div>
+
 <!-- video section end --> 
 <!-- Quality_Section Start-->
 <div class="wdt_100 pad_85_100">
@@ -343,9 +349,9 @@
 	    $('#owl-carousel').owlCarousel({
         loop:true,
         margin:10,
-        nav: true,
         dots: false,
 		autoplay:false,
+        nav: true,
         responsive:{
             0:{
                 items:1
