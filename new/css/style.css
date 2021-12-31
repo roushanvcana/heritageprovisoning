@@ -7627,4 +7627,46 @@ top: 10px!important;
 /* team-work */
 
 
+/* locations */
+
+.our-locations{
+	padding: 100px 80px 100px 80px;
+	background-color: #F7F7F7;
+}
+
+.our-locations .container .row .location-section img{
+	box-shadow: 10px 22px 15px 0px grey;
+	margin: 0 0 50px 0;
+	width: 80%;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+
+.our-locations .container .row .location-section{
+	text-align: center;
+}
+
+.our-locations .container .row .location-section h1{
+	margin: 0 0 10px 0;
+}
+
+.our-locations .container .row .location-new{
+	text-align: center;
+}
+
+.our-locations .container .row .location-new h1{
+	margin: 0 0 10px 0;
+}
+
+/* .our-locations{
+  background-image: url(../images/about/watercolor-cannabis-leaf-background-with-empty-space_52683-51622.jpg);
+  background-size: cover;
+  background-position: center;
+    background-repeat: no-repeat;
+} */
+
+/* locations */
 
