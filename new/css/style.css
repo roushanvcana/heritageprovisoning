@@ -2215,7 +2215,7 @@ a.view-all.slide_contact_btn.slide_service_btn.get_quote_btn {
 }
 .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot.owl-nav {
 	position: absolute;
-	/* left: 20px; */
+	 left: 10px; 
 	top: 50%;
 	background-color: var(--base-color) !important;
 	display: block;
@@ -2375,6 +2375,9 @@ a.view-all.slide_contact_btn.slide_service_btn.get_quote_btn {
 }
 .quality-list h5 a:hover {
 	color: #BEC777;
+}
+.quality-list h5 a span {
+	font-size: 26px;
 }
 .quality-list p {
 	font-size: 14px;
