@@ -18,6 +18,21 @@
 /***********************************
 --01-GLOBAL STYLE START---
 ***********************************/
+.wrapper {
+	width:100%;
+	height:80vh;
+	overflow: hidden;
+	
+	background-size: cover;
+	background-position: center center;
+}
+
+.wrapper video {
+	object-fit: cover;
+	width:100%;
+	height:100%;
+}
+
 
 body {
 	overflow-x: hidden;
@@ -129,7 +144,7 @@ a.view-all:hover {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: #333;
+	background: #fd7613;
 	-webkit-transform: scaleX(0);
 	transform: scaleX(0);
 	-webkit-transform-origin: 0 50%;
@@ -329,11 +344,8 @@ h4.fnt28.mar_btm1 {
 	margin-bottom: 28px;
 }
 .wdt_100 {
-	width: 100%;
-<<<<<<< Updated upstream
-=======
 	background: url(../images/home_page/client_col_bg.jpg) repeat;
->>>>>>> Stashed changes
+	width: 100%;
 }
 p.fnt17 {
 	font-size: 17px;
@@ -600,12 +612,7 @@ a:focus {
 	right: 24px;
 }
 #main-navigation-wrapper.navbar-default {
-<<<<<<< Updated upstream
-	background: #fff;
-=======
-	/*background: #fff;*/
 	background: url(../images/common_in_all/main_header_bg.jpg) repeat-x bottom #fff;
->>>>>>> Stashed changes
 	border: none;
 	min-height: auto;
 	margin: 0;
@@ -769,26 +776,16 @@ a.hdr_mob_get_quote_btn {
 	display: none;
 }
 .stripe_notification {
-<<<<<<< Updated upstream
-	background: #5c5b5b;
-	border-top: 1px solid #ffffff5c;
-=======
-	background: url(../images/home_page/prd_slide_bg.jpg) no-repeat center top;
+	background: #222;
+/*background: url(../images/home_page/prd_slide_bg.jpg) no-repeat center top;*/
     background-size: cover;
-/*	background: #5c5b5b;
-	border-top: 1px solid #ffffff5c;*/
->>>>>>> Stashed changes
-	padding: 20px 0;
+	padding: 10px 0;
 }
 .stripe_notification h3 {
 	font-size: 30px;
 	font-weight: 600;
 	margin: 0;
-<<<<<<< Updated upstream
-	color: #fff;
-=======
 	color: #94b200;
->>>>>>> Stashed changes
 	text-align: center;
 }
 /***********************************
@@ -1377,6 +1374,9 @@ a.view-all.slide_learn_btn.view_project_btn {
 ul.project_gal_imgs {
 	width: 70%;
 	float: right;
+
+
+
 	margin: 0px;
 	padding: 0px;
 }
@@ -1926,7 +1926,6 @@ a.view-all.slide_contact_btn.slide_service_btn.get_quote_btn {
     top: -60px;
     left: 20px;
 }
-<<<<<<< Updated upstream
 .about-style-two h2 {
 	font-family: 'Oswald', sans-serif;
 	font-size: 20px;
@@ -1940,78 +1939,58 @@ a.view-all.slide_contact_btn.slide_service_btn.get_quote_btn {
 	font-weight: 600;
 	color: #000;
 }
-/*blog*/
-.section-lg {
-    padding-top: 2rem;
-    padding-bottom: 8rem;
-=======
-.about-content {
-    padding: 60px 0 0;
-}
-.about-style-two h2 {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 20px;
-	font-weight: 700;
-	color: #a6c644;
-	padding: 0 0 15px;
-}
-.about-style-two h3 {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 40px;
-	font-weight: 700;
-	color: #000;
-}
 .about-content p {
     text-align: justify;
-    color: #333;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000;
 }
 /*blog*/
 .section-lg {
     padding-top: 6rem;
     padding-bottom: 6rem;
->>>>>>> Stashed changes
 }
 .section-heading h2 {
     padding: 0 0 30px;
     margin: 0 0 80px;
     font-size: 36px;
-<<<<<<< Updated upstream
 }
 .icon-box {
-	border: 5px solid #d7d6d6;
-    padding: 1rem;
-    position: relative;
-    background: #90ab4a;
-=======
-    color: #353535;
-}
-.section-heading h2 span {
-	color: #9fc612;
-}
-.icon-box {
-	border: 1px dashed #333333;
+	border: 1px dashed #242424;
 	padding: 1rem;
 	position: relative;
-	background: #a6c644;
+	background: #ef7a24;
 	border-radius: 6px;
-	box-shadow: 0 0 5px #5f605b;
->>>>>>> Stashed changes
+	box-shadow: 0 0 3px #000;
+	 -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);   
+}
+.icon-box:hover
+{
+    box-shadow: 0px 0px 10px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
 }
 .icon-box h2 {
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 	font-size: 18px;
-<<<<<<< Updated upstream
-	color: #fff;
+	color: #040404;
 	font-weight: 700;
 	padding: 30px 0 0 6px;
-=======
-	color: #333;
-	font-weight: 700;
-	padding: 30px 0 0 0;
-	line-height: 24px;
->>>>>>> Stashed changes
 }
 .card-icon {
 	position: relative;
@@ -2024,11 +2003,7 @@ a.view-all.slide_contact_btn.slide_service_btn.get_quote_btn {
 	 background: #fff;
 	 border-radius: 50px;
 	 padding: 10px;
-<<<<<<< Updated upstream
-	 border: 5px solid #d7d6d6;
-=======
-	 border: 1px dashed #333333;
->>>>>>> Stashed changes
+	 border: 1px dashed #242424;
 	 margin: 0 auto 0;
 	 /* top: 10px; */
 	 bottom: -20px;
@@ -2037,17 +2012,11 @@ a.view-all.slide_contact_btn.slide_service_btn.get_quote_btn {
 }
 .card-icon img {
    
-<<<<<<< Updated upstream
-}
-.blog_bg {
-=======
-width: 70%;
+width: 80%;
    
-margin: 10px 0;
+margin: 6px 0;
 }
 .blog_bg {
-	background: url(../images/home_page/client_col_bg.jpg) repeat;
->>>>>>> Stashed changes
 	padding: 60px 0;
 }
 .blog-grid {
@@ -2072,12 +2041,9 @@ margin: 10px 0;
 }
 .discretion-blog .btn {
 	color: #fefeff;
-	background: #454343;
-<<<<<<< Updated upstream
+	background: #487807;
+/*	background: #454343;*/
 	width: 100%;
-=======
-	/* width: 100%; */
->>>>>>> Stashed changes
 	text-transform: uppercase;
 	border-radius: 0px;
 	margin-top: 10px;
@@ -2085,13 +2051,6 @@ margin: 10px 0;
 	-moz-transform: perspective(1px) translateZ(0);
 	-o-transform: perspective(1px) translateZ(0);
 	transform: perspective(122px) translateZ(0);
-<<<<<<< Updated upstream
-=======
-	margin: 0 auto;
-	text-align: center;
-	display: table;
-	/* border-radius: 4px; */
->>>>>>> Stashed changes
 }
 .discretion-blog .btn:hover {
 	color: #ffffff;
@@ -2104,7 +2063,7 @@ margin: 10px 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: #79b82d;
+	background: #fd7613;
 	-webkit-transform: scaleX(0);
 	transform: scaleX(0);
 	-webkit-transform-origin: 0 50%;
@@ -2115,7 +2074,7 @@ margin: 10px 0;
 	transition-duration: 0.3s;
 	-webkit-transition-timing-function: ease-out;
 	transition-timing-function: ease-out;
-	border: 2px solid #79b82d;
+	border: 2px solid #fd7613;
 }
 .discretion-blog .btn:hover:before {
 	-webkit-transform: scaleX(1);
@@ -2124,7 +2083,7 @@ margin: 10px 0;
 	transform: scaleX(1);
 }
 .date-blog {
-	background: #82b53f;
+	background: #487807;
 	width: 70px;
 	position: absolute;
 	bottom: 0;
@@ -2140,7 +2099,7 @@ margin: 10px 0;
 	content: "";
 	border-left: 0 solid transparent;
 	border-right: 70px solid transparent;
-	border-bottom: 12px solid #82b53f;
+	border-bottom: 12px solid #487807;
 	top: -11px;
 	position: absolute;
 	left: 0;
@@ -2159,12 +2118,9 @@ margin: 10px 0;
 }
 /*blog*/
 .brand_bg {
-<<<<<<< Updated upstream
-	background: #000;
-=======
-	background: url(../images/home_page/prd_slide_bg.jpg) no-repeat center top;
+	background: #222;
+/*	background: url(../images/home_page/prd_slide_bg.jpg) no-repeat center top;*/
     background-size: cover;
->>>>>>> Stashed changes
 	padding: 80px 0;
 }
 .owl-carousel .item {
@@ -2176,12 +2132,8 @@ margin: 10px 0;
 	height: auto
 }
 .owl-carousel .item {
-<<<<<<< Updated upstream
-	margin: 0 30px;/* width: 80%; */
-=======
-	margin: 0 10px 0 40px;
+	margin: 0 20px 0 10px;
 	/* width: 80%; */
->>>>>>> Stashed changes
 }
 .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot.owl-nav {
 	position: absolute;
@@ -2190,17 +2142,10 @@ margin: 10px 0;
 	background-color: var(--base-color) !important;
 	display: block;
 	padding: 0 .3em !important;
-<<<<<<< Updated upstream
-	font-size: 3em;
-	margin: 0;
-	cursor: pointer;
-	color: #fff;
-=======
 	font-size: 3em !important;
 	margin: 0;
 	cursor: pointer;
 	color: #fff !important;
->>>>>>> Stashed changes
 	transform: translate(-50%, -50%);
 }
 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot.owl-nav {
@@ -2210,17 +2155,10 @@ margin: 10px 0;
 	background-color: var(--base-color) !important;
 	display: block;
 	padding: 0 .3em !important;
-<<<<<<< Updated upstream
-	font-size: 3em;
-	margin: 0;
-	cursor: pointer;
-	color: #fff;
-=======
 	font-size: 3em !important;
 	margin: 0;
 	cursor: pointer;
 	color: #fff !important;
->>>>>>> Stashed changes
 	transform: translate(-50%, -50%);
 }
 .deals .owl-carousel .item img {
@@ -2249,11 +2187,7 @@ margin: 10px 0;
 }
 .year_quality {
 	font-size: 36px;
-<<<<<<< Updated upstream
 	color: #494949;
-=======
-	color: #353535;
->>>>>>> Stashed changes
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	text-align: center;
@@ -2261,12 +2195,6 @@ margin: 10px 0;
 	padding-right: 37px;
 	line-height: 48px;
 }
-<<<<<<< Updated upstream
-=======
-.year_quality span {
-	color: #9fc612;
-}
->>>>>>> Stashed changes
 .year_quality .year_35 {
 	font-size: 60px;
 }
@@ -2292,15 +2220,11 @@ margin: 10px 0;
 	margin: 0 0px 0px;
 }
 .quality-list_marbtm {
-<<<<<<< Updated upstream
-	overflow: hidden
-=======
 	overflow: hidden;
-	background: #e9e9e9;
+	background: #ffffff;
 	padding: 0 0 20px;
-	border-radius: 0 0 6px 6px;
-	box-shadow: 0 0 3px #a9a9a9;
->>>>>>> Stashed changes
+	border-radius: 6px;
+	box-shadow: 0 0 6px #525252;
 }
 .quality-list img {
 	width: 100%;
@@ -2325,7 +2249,7 @@ margin: 10px 0;
 	overflow: hidden;
 }
 .image_hover.mbot_38 {
-	margin-bottom: 38px;
+	margin-bottom: 24px;
 }
 .image_hover:after {
 	position: absolute;
@@ -2376,22 +2300,14 @@ a.view-all.read_btn {
 	width: 128px;
 	line-height: 37px;
 	color: #fff;
-<<<<<<< Updated upstream
-	background: #fd7613;
-	border: 2px solid #000;
-	font-size: 14px;
-	font-weight: 700;
-	border-radius: 10px;
-	font-family: 'Open Sans', sans-serif;
-=======
-	background: #a6c644;
+	background: #487807;
+	/*background: #fd7613;*/
 	/* border: 2px solid #000; */
 	font-size: 14px;
 	font-weight: 700;
-	border-radius: 5px;
+	border-radius: 6px;
 	font-family: 'Open Sans', sans-serif;
-	padding: 5px 0;
->>>>>>> Stashed changes
+	padding: 6px 0;
 }
 a.view-all.read_btn:before {
 	border-radius: 3px;
@@ -2444,6 +2360,7 @@ a.view-all.read_btn:before {
 #photo_gallery .project_detail a.view-all.view_gallery {
 	width: 147px;
 	display: inline-block;
+
 	transition: all .3s ease-out;
 	orphans: 0;
 	line-height: 37px;
@@ -2783,8 +2700,10 @@ a.view-all.slide_contact_btn.slide_service_btn.margin_rght {
     color: #000;
     border: 2px solid #959595;
 }*/
-#client_slider {
-	padding: 0 100px;
+.white_client_txt p {
+    color: #000;
+    text-align: justify;
+    line-height: 22px;
 }
 .white_client_txt {
 	position: relative;
@@ -2794,7 +2713,6 @@ a.view-all.slide_contact_btn.slide_service_btn.margin_rght {
 	/* box-shadow: 0px 0px 5px #ccc;*/
 	margin-bottom: 10px;
 }
-<<<<<<< Updated upstream
 /*.white_client_txt p {
     background: url(../images/home_page/client_quote_bg.png) no-repeat 0px 0px;
     padding-left: 52px;
@@ -2810,11 +2728,6 @@ a.view-all.slide_contact_btn.slide_service_btn.margin_rght {
     background: url(../images/home_page/client_txt_down_ar.png) no-repeat 0px 0px;
     content: "";
 }*/
-=======
-.white_client_txt p {
-    color: #000;
-}
->>>>>>> Stashed changes
 .client_identity_Col {
 	width: 100;
 	float: left;
@@ -2835,15 +2748,9 @@ a.view-all.slide_contact_btn.slide_service_btn.margin_rght {
 }
 
 .client_place {
-<<<<<<< Updated upstream
-	font-size: 12px;
-	color: #9fc612;
-	text-transform: uppercase;
-=======
 	font-size: 16px;
-	color: #313621;
+	color: #fd7613;
 	text-transform: capitalize;
->>>>>>> Stashed changes
 }
 /***********************************
 --11-BLOG START---
@@ -3806,11 +3713,8 @@ ul.case_study_list li span {
 	width: 80%;
 }
 .news_search .btn-default {
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 	background: url(../images/blog_page/search_img.jpg) no-repeat;
+
 	width: 49px;
 	height: 49px;
 	float: right;
@@ -3820,6 +3724,7 @@ ul.case_study_list li span {
 	right: 15px;
 	border-radius: 0px;
 }
+
 .news_search .btn-default:hover, .btn-default:focus, .btn-default.active {
 	background: url(../images/blog_page/search_img.jpg) no-repeat;
 }
@@ -4015,10 +3920,6 @@ ul.blog_icon_list li a:hover {
 	border: 2px solid #a6c644;
 	background: none;
 }
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 .pagination>li:first-child>a, .pagination>li:first-child>span {
 	border-radius: 0px;
 }
@@ -4037,6 +3938,7 @@ ul.blog_icon_list li a:hover {
 	width: 100%;
 	float: left;
 }
+
 #ask-question-form {
 }
 #ask-question-form .form-group {
@@ -4199,18 +4101,10 @@ ul.blog_icon_list li a:hover {
 }
 .accordian_nav .glyphicon {
 	border: 1px solid #909090;
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 	border-radius: 50%;
 	height: 21px;
 	width: 21px;
 	text-align: center;
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 	line-height: 21px;
 	color: #909090;
 	float: right;
@@ -4428,10 +4322,6 @@ a.view-all.shop_add_cart.add_cart_second_btn {
 }
 .tabbing_col {
 	width: 100%;
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 	float: left;
 	border-bottom: 1px dashed #abaaaa;
 }
@@ -4440,6 +4330,7 @@ a.view-all.shop_add_cart.add_cart_second_btn {
 }
 h2.acc_trigger {
 	background: url(../images/product_Detail_page/plus_icon.png) no-repeat 97% 15px;
+
 	float: left;
 	width: 100%;
 	margin: 0px;
@@ -4603,6 +4494,7 @@ h2.active {
 	float: left;
 	padding: 26px 29px 21px 40px;
 }
+
 a.coupon_btn {
 	background: #fff;
 	font-size: 14px;
@@ -4624,6 +4516,7 @@ a.coupon_btn.apply_coupon {
 }
 a.add_cart_btn {
 	float: right;
+
 	font-size: 14px;
 	color: #fff;
 	text-transform: uppercase;
@@ -4822,10 +4715,6 @@ ul.order_list li {
 	color: #898989;
 	font-family: 'Raleway', sans-serif;
 	width: 100%;
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 	padding: 10px 0px;
 }
 ul.order_list li .order_prdt {
@@ -5046,11 +4935,8 @@ p.p_mat_btm1 {
 .working_hours_col h3 {
 	font-size: 28px;
 	margin-bottom: 5px;
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 }
+
 .query_Col {
 	width: 100%;
 	float: left;
@@ -5089,14 +4975,9 @@ p.p_mat_btm1 {
 ***********************************/
 
 footer {
-<<<<<<< Updated upstream
-	background: #252525;
-	/* background: url(../images/common_in_all/ftr_bg.png) no-repeat center top;*/
-=======
-	/*background: #252525;*/
-	background: url(../images/home_page/prd_slide_bg.jpg) no-repeat center top;
-    background-size: cover;
->>>>>>> Stashed changes
+	background: #222;
+	/*background: url(../images/home_page/prd_slide_bg.jpg) no-repeat center top;
+    background-size: cover;*/
 	padding: 30px 0 0;
 }
 .footer_menu {
@@ -5220,10 +5101,7 @@ ul.ftr_social li i:hover {
 	margin: 48px 0px 0px;
 }
 .ftr_btm p {
-<<<<<<< Updated upstream
-=======
 	text-align: center;
->>>>>>> Stashed changes
 	font-size: 14px;
 	color: #fff;
 	margin-bottom: 0px;
@@ -5249,10 +5127,6 @@ ul.ftr_social li i:hover {
 	display: none
 }
 .five_shows_one_move .cloneditem-1, .five_shows_one_move .cloneditem-2, .five_shows_one_move .cloneditem-3, .five_shows_one_move .cloneditem-4, .five_shows_one_move .cloneditem-5 {
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 	display: none
 }
 .six_shows_one_move .cloneditem-1, .six_shows_one_move .cloneditem-2, .six_shows_one_move .cloneditem-3, .six_shows_one_move .cloneditem-4, .six_shows_one_move .cloneditem-5, .six_shows_one_move .cloneditem-6 {
@@ -5540,23 +5414,16 @@ ul.ftr_social li i:hover {
 }
 .five_shows_one_move .carousel-inner>.left,  .five_shows_one_move .carousel-inner>.prev.right,  .five_shows_one_move .carousel-inner>.active {
 	left: 0
+
 }
 .five_shows_one_move .cloneditem-1,  .five_shows_one_move .cloneditem-2,  .five_shows_one_move .cloneditem-3 {
 	display: block
 }
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 /*===*****====FifthShowColumn End==*****====	*/
     /*===*****====SixShowColumn Start==*****====	*/
     
 .six_shows_one_move .carousel-inner>.active.left,  .six_shows_one_move .carousel-inner>.prev {
 	left: -25%
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 }
 .six_shows_one_move .carousel-inner>.active.right,  .six_shows_one_move .carousel-inner>.next {
 	left: 25%
@@ -5648,6 +5515,7 @@ ul.ftr_social li i:hover {
 	left: 0
 }
 .five_shows_one_move .carousel-inner>.item.active.left,  .five_shows_one_move .carousel-inner>.item.prev {
+
 	-webkit-transform: translate3d(-25%, 0, 0);
 	transform: translate3d(-25%, 0, 0);
 	left: 0
@@ -5745,10 +5613,6 @@ ul.ftr_social li i:hover {
 	left: 20%
 }
 .five_shows_one_move .carousel-inner>.left,  .five_shows_one_move .carousel-inner>.prev.right,  .five_shows_one_move .carousel-inner>.active {
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 	left: 0
 }
 .five_shows_one_move .carousel-inner .cloneditem-1,  .five_shows_one_move .carousel-inner .cloneditem-2,  .five_shows_one_move .carousel-inner .cloneditem-3,  .five_shows_one_move .carousel-inner .cloneditem-4,  .five_shows_one_move .carousel-inner .cloneditem-5 {
@@ -5954,11 +5818,7 @@ a.request_quote {
 	display: none;
 }
 #main-navigation-wrapper.navbar-default {
-<<<<<<< Updated upstream
-	background: #fff;
-=======
 	/*background: #fff;*/
->>>>>>> Stashed changes
 }
 .finance-navbar.affix .nav > li {
 	padding: 0px 0!important;
@@ -6301,6 +6161,7 @@ a.view-all.slide_contact_btn.slide_service_btn.get_quote_btn {
 	background-size: cover;
 	padding: 32px 28px 35px;
 	margin: 40px 0px 0px;
+
 }
 .short_about_col.why_choose_Txt {
 	padding-right: 15px;
@@ -6371,6 +6232,12 @@ ul.law_service_img li.spring_img_wdt2 {
 	width: 33.3%;
 }
 /*====Service end=====*/
+/*
+	video
+    {
+        position: relative;
+    }
+*/
     /*====Footer start=====*/
 	
 footer {
@@ -6517,6 +6384,7 @@ a.view-all.slide_contact_btn.slide_service_btn.get_quote_btn {
 }
 .pad_85_100 {
 	padding: 75px 0px 80px;
+
 }
 #photo_gallery {
 	padding: 60px 15px 0;
@@ -6637,7 +6505,7 @@ a.view-all.slide_contact_btn.slide_service_btn {
 	line-height: 38px;
 	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
 	padding-right: 0;
-	text-align: left;
+	text-align: center;
 	width: 100%;
 }
 .year_quality .year_35 {
@@ -6741,10 +6609,6 @@ a.view-all.slide_contact_btn.slide_service_btn.margin_rght {
 .carousel {
 	width: 100%;
 	float: left;
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 }
 #member_slider {
 	margin: 40px 0px 0px;
@@ -6980,10 +6844,6 @@ ul.snow_removal_icon_list {
 	margin: 10px 0 0;
 	width: 100%;
 }
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 ul.law_service_img li.spring_img_wdt1 {
 	margin-bottom: 10px;
 	width: 100%;
@@ -7211,10 +7071,6 @@ a.view-all.slide_contact_btn.slide_service_btn.get_quote_btn {
 	margin-top: 0px;
 }
 .hdr_top_variation4 ul {
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 	margin: 10px 0px;
 }
 #photo_gallery .controls.gallery_controls {
@@ -7295,6 +7151,20 @@ a.view-all.slide_contact_btn.slide_service_btn.get_quote_btn {
 }
 }
  @media(max-width: 767px) {
+	 .wrapper {
+	width:100%;
+	height:auto;
+	overflow: hidden;
+	
+	background-size: cover;
+	background-position: center center;
+}
+
+.wrapper video {
+	object-fit: cover;
+	width:100%;
+	height:100%;
+}
 	 .section-lg {
     padding-top: 1rem;
     padding-bottom: 0rem;
