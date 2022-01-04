@@ -1264,7 +1264,7 @@ ul.gallery_slide_list li:last-child {
 	margin: 94px 0px 61px 0px;
 }
 	  #main-navigation-wrapper .nav > li {
-    padding: 36px 0 0;
+    padding: 45px 0 0;
     margin-right: 6px;
 }
 }
@@ -5453,9 +5453,7 @@ ul.ftr_social li i:hover {
 
 @media all and (min-width: 768px) {
 /*===*****====TwoShowColumn Start==*****====	*/
-	.wrapper {
-		height: auto;
-	}
+
 /*	.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot.owl-nav {
     right: 0;
    
@@ -6186,10 +6184,7 @@ a.var4_request_btn {
 .container {
 	padding: 0;
 }
-	  #main-navigation-wrapper .nav > li {
-    padding: 26px 0;
-    margin-right: 6px;
-}
+	 
 	
 }
 
