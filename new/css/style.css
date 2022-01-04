@@ -604,7 +604,7 @@ a:focus {
 }
 .logo {
 	margin: 10px 0px;
-	width: 8%;
+	/*width: 8%;*/
 }
 .logo-menu {
 	float: left;
@@ -635,10 +635,10 @@ a:focus {
 	padding-right: 0;
 	position: relative;
 }
-#main-navigation-wrapper .nav > li {
+/*#main-navigation-wrapper .nav > li {
 	padding: 36px 0;
 	margin-right: 6px;
-}
+}*/
 #main-navigation-wrapper .nav.small_hgt > li {
 	padding: 36px 0 10px;
 }
@@ -1264,7 +1264,7 @@ ul.gallery_slide_list li:last-child {
 	margin: 94px 0px 61px 0px;
 }
 	  #main-navigation-wrapper .nav > li {
-    padding: 45px 0 0;
+    padding: 16px 0;
     margin-right: 6px;
 }
 }
@@ -5924,14 +5924,14 @@ a.request_quote {
 }
 .logo-menu {
 	display: block;
-	width: 100px;
+	width: auto;
 	margin: 14px 0px 14px 0;
 }
 .logo {
 	display: none;
 }
 #main-navigation-wrapper.navbar-default {
-	background: #fff;
+	background: #222;
 }
 .finance-navbar.affix .nav > li {
 	padding: 0px 0!important;
@@ -5955,7 +5955,7 @@ a.request_quote {
 	border-color: #C4D114;
 }
 .navbar-default .navbar-toggle .icon-bar {
-	background: #33381e;
+	background: #fff;
 	width: 25px;
 	height: 3px;
 }
