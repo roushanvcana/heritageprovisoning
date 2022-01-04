@@ -28,6 +28,7 @@
 	overflow: hidden;
 	background-size: cover;
 	background-position: center center;
+	 box-shadow: 0 0 10px #222222;
 }
 
 .wrapper video {
@@ -622,11 +623,12 @@ a:focus {
 	right: 24px;
 }
 #main-navigation-wrapper.navbar-default {
-	background: #fff;
+	background: #222;
 	border: none;
 	min-height: auto;
-	padding: 10px 30px 10px 30px;
+	padding: 0;
 	margin: 0;
+	border-radius: 0;
 }
 #main-navigation-wrapper .navbar-collapse {
 	padding-left: 0;
@@ -677,7 +679,7 @@ a:focus {
 	font-size: 1.1em;
     font-weight: 500;
 	font-family : 'Arial' , sans-serif ;                                                                                                                    
-	color: #474747;
+	color: #fff;
 	text-transform: capitalize;
 	padding-right: 20px;
 }
@@ -811,7 +813,7 @@ a.hdr_mob_get_quote_btn {
 	top: 0;
 	left: 0;
 	right: 0;
-	position: fixed !important;
+	position: static !important;
 	margin: 0;
 	animation: fadeItIn 1s;
 	z-index: 1000;
@@ -1932,7 +1934,8 @@ a.view-all.slide_contact_btn.slide_service_btn.get_quote_btn {
 .about-style-two {
     /* padding: 60px 0 15px; */
     background: #fff;
-    box-shadow: 10px -10px 15px -10px grey;
+    box-shadow: 0 2px 10px #222222;
+    margin: 0 0 30px;
 }
 
 .about-image {
@@ -2086,7 +2089,7 @@ a.view-all.slide_contact_btn.slide_service_btn.get_quote_btn {
    
 }
 .blog_bg {
-	padding: 100px;
+    padding: 100px 0;
 }
 .blog-grid {
 	background: #fff;
@@ -2368,7 +2371,9 @@ a.view-all.slide_contact_btn.slide_service_btn.get_quote_btn {
 /* .quality-list .address{
    font-size: 20%;
 } */
-
+.quality_section {
+	padding: 50px 0;
+}
 
 .quality-list h5 a {
 	color: #3f3f3f;
@@ -5444,7 +5449,17 @@ ul.ftr_social li i:hover {
 
 @media all and (min-width: 768px) {
 /*===*****====TwoShowColumn Start==*****====	*/
-    
+	.wrapper {
+		height: auto;
+	}
+	.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot.owl-nav {
+    right: 0;
+   
+}
+	.blog-grid {
+   
+    margin: 0 0 40px;
+}
 .two_shows_one_move .carousel-inner>.active.left,  .two_shows_one_move .carousel-inner>.prev {
 	left: -50%
 }
@@ -6510,6 +6525,21 @@ a.view-all.slide_contact_btn.slide_service_btn.get_quote_btn {
 }
 
 @media only screen and (min-width: 260px) and (max-width: 767px) {
+	.blog_bg {
+    padding: 50px 0;
+}
+	.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot.owl-nav {
+    right: 0;
+   
+}
+	.blog-grid {
+   
+    margin: 0 0 40px;
+}
+	.brand_bg {
+    background: #000;
+    padding: 50px;
+}
 .footer_menu {
 	text-align: center;
 	justify-content: center;
@@ -7296,6 +7326,13 @@ a.view-all.slide_contact_btn.slide_service_btn.get_quote_btn {
 }
 }
  @media(max-width: 767px) {
+	 .wrapper {
+    height: auto;
+   
+}
+	 .blog_bg {
+    padding: 50px 0;
+}
 	 .section-lg {
     padding-top: 1rem;
     padding-bottom: 0rem;
@@ -7380,7 +7417,9 @@ a.view-all.slide_contact_btn.slide_service_btn.get_quote_btn {
 */
 
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
-	
+	.blog_bg {
+    padding: 50px 0;
+}
  .pp_pic_holder.pp_default {
 width: 100%!important;
 left: 0!important;
