@@ -6201,6 +6201,10 @@ a.var4_request_btn {
    
     margin: 0 0 30px;
 }
+	#main-navigation-wrapper .nav > li {
+    padding: 21px 0;
+    margin-right: 6px;
+}
 /*====home version1 start=====*/
     
 #minimal-bootstrap-carousel .carousel-caption .container .box.valign-top.home1_slide1,  #minimal-bootstrap-carousel .carousel-caption .container .box.valign-top.home1_slide2 {
