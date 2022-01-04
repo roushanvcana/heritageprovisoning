@@ -7589,8 +7589,9 @@ top: 10px!important;
 	-o-transform: scale(1.1);
 }
 
-.card .card-block h4{
+.card .card-block h2{
 	color: #C7A877;
+	margin: 0 0 20px 0;
 }
 
 .card-block {
@@ -7611,7 +7612,7 @@ top: 10px!important;
 }
 
 .card-title {
-    font-size: 1.28571429em;
+    /* font-size: 1.28571429em; */
     font-weight: 700;
     line-height: 1.2857em;
 }
@@ -7620,6 +7621,10 @@ top: 10px!important;
     clear: both;
     margin-top: .5em;
     color: rgba(0, 0, 0, .68);
+}
+
+.card-text .fa-clock {
+    color: #c7a877;
 }
 
 .card-footer {
@@ -7952,4 +7957,123 @@ top: 10px!important;
 
 .support-section .container .row .heading-text .img-text h4{
 	color: #BEC777;
+}
+
+/* support-section */
+
+/* country-section */
+
+
+.country-section{
+  padding: 100px 50px 100px 50px;
+  background-image: url(../images/about/cannabis-leaf-composition-close-up_23-2148977705.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.france{
+	padding: 100px 50px 100px 50px;
+	background-image: url(../images/about/Capture.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+
+/* country-section */
+
+/* location */
+
+.location{
+    padding: 80px 0 80px 0;
+}
+
+.location .location-heading {
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+.location .location-heading h1{
+	color: #c7a877;
+}
+
+/* location */
+
+/* explore-store */
+
+.explore-store{
+	background-color: #F7F7F7;
+	padding: 100px 50px 100px 50px;
+}
+
+.explore-store .container .row .explore-heading {
+    margin: 0 0 75px 0;
+	text-align: center;
+}
+
+.explore-store .container .row .explore-image img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 80%;
+   border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -ms-border-radius: 10px;
+   -o-border-radius: 10px;
+}
+
+.explore-store .container .row .explore-image img:hover{
+	box-shadow: 10px -10px 15px 10px grey;
+	/* background: #C7A877; */
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	transition: 0.5s all ease-in-out;
+	transform: scale(1.1);
+}
+
+
+
+.explore-store .container .row .explore-heading h2{
+	color: #c7a877;
+}
+
+.explore-store .container .row .explore-text {
+	text-align: center;
+    padding: 25px 0 25px 0;
+}
+
+
+.explore-store .container .row .explore-text .fa-cannabis, .fa-capsules, .fa-leaf{
+	color: #BEC777;
+}
+
+/* explore-store */
+
+/* grid-section */
+
+.last-section{
+	padding: 100px 50px 100px 50px;
+}
+
+.last-section .container-fluid .row .grid-section .grid-image img{
+	width: 80px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	opacity: 0.5;
+}
+
+.last-section .container-fluid .row .grid-section .grid-image img:hover{
+	opacity: 1;
+}
+
+.last-section .container-fluid .row .grid-section .grid-image h4{
+	text-align: center;
+	margin: 30px 0 30px 0;
+    padding: 0 15px 15px 15px
 }
