@@ -616,7 +616,7 @@ a:focus {
 	background: #222;
 	border: none;
 	min-height: auto;
-	padding: 0;
+	padding: 0 10px;
 	margin: 0;
 	border-radius: 0;
 }
@@ -6252,7 +6252,11 @@ a.view-all.slide_contact_btn.slide_service_btn.get_quote_btn {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 /*====home version1 start=====*/
+    .wrapper {
+  
+    height: 50vh;
     
+}
 .landing_gardening_txt {
 	font-size: 14px;
 }
