@@ -7885,7 +7885,7 @@ span {
 }
 }
 
-@media (min-width:768px) {
+@media (max-width:768px) {
 
 }
 
@@ -7898,4 +7898,11 @@ span {
     height: 40vh;
     
 }
+	.brand_bg {
+    background: #000;
+    padding: 50px 50px 100px 30px;
+}
+	.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot.owl-nav {
+		padding: 0 !important;
+	}
 }
