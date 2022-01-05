@@ -5175,7 +5175,7 @@ ul.ftr_social li i:hover {
 }
 .ftr_btm {
 	background: #111;
-	padding: 10px 0px 10px;
+	padding: 10px 0px 6px;
 	margin: 20px 0px 0px;
 }
 .ftr_btm p {
@@ -5988,7 +5988,7 @@ a.request_quote {
 	border: none;
 	content: "\f077";
 	top: 15px;
-	color: #474747;
+	color: #C7A877;
 }
 #main-navigation-wrapper .navbar-nav .dopdown-nav-toggler .icon-bar {
 /*background-color: #fff;
@@ -6024,7 +6024,7 @@ a.request_quote {
 	background: url(../images/common_in_all/nav_dropdownlist_bg.jpg) repeat-x bottom;
 }
 #main-navigation-wrapper .navbar-nav > li > .dropdown-submenu a:hover {
-	color: #9acc41;
+	color: #C7A877;
 	background: url(../images/common_in_all/nav_dropdownlist_bg.jpg) repeat-x bottom;
 }
 #main-navigation-wrapper .nav > li.dropdown.dropdown-active > a {
