@@ -635,13 +635,14 @@ a:focus {
 	padding-right: 0;
 	position: relative;
 }
-/*#main-navigation-wrapper .nav > li {
-	padding: 36px 0;
+#main-navigation-wrapper .nav > li {
+	padding: 16px 0 0;
 	margin-right: 6px;
-}*/
+}
 #main-navigation-wrapper .nav.small_hgt > li {
 	padding: 36px 0 10px;
 }
+
 #main-navigation-wrapper .nav > li > a:before {
 	content: '';
 	display: block;
