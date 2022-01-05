@@ -625,6 +625,14 @@ a:focus {
 	padding-right: 0;
 	position: relative;
 }
+/*#main-navigation-wrapper .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+    left: 0;
+}*/
 #main-navigation-wrapper .nav > li {
 	padding: 16px 0 0;
 	margin-right: 6px;
@@ -2101,13 +2109,14 @@ a.view-all.slide_contact_btn.slide_service_btn.get_quote_btn {
 	text-transform: uppercase;
 	border-radius: 0px;
 	margin-top: 10px;
-	-webkit-transform: perspective(1px) translateZ(0);
+	/*-webkit-transform: perspective(1px) translateZ(0);
 	-moz-transform: perspective(1px) translateZ(0);
 	-o-transform: perspective(1px) translateZ(0);
-	transform: perspective(122px) translateZ(0);
+	transform: perspective(122px) translateZ(0);*/
 }
 .discretion-blog .btn:hover {
 	color: #ffffff;
+	background: #BEC777;
 }
 /* .discretion-blog .btn:before {
 	content: "";
@@ -2133,10 +2142,10 @@ a.view-all.slide_contact_btn.slide_service_btn.get_quote_btn {
 
 
 .discretion-blog .btn:hover:before {
-	-webkit-transform: scaleX(1);
+	/*-webkit-transform: scaleX(1);
 	-moz-transform: scaleX(1);
 	-o-transform: scaleX(1);
-	transform: scaleX(1);
+	transform: scaleX(1);*/
 }
 .date-blog {
 	background: #82b53f;
@@ -5042,7 +5051,7 @@ p.p_mat_btm1 {
 footer {
 	background: #222;
 	/* background: url(../images/common_in_all/ftr_bg.png) no-repeat center top;*/
-	padding: 30px 0 0;
+	padding: 20px 0 0;
 }
 .footer_menu {
 	text-align: center;
@@ -5051,7 +5060,7 @@ footer {
 	text-align: center;
 	font-size: 16px;
 	color: #fff;
-	padding: 0 40px 0;
+	padding: 0 34px 0;
 	font-family : 'Arial', sans-serif;
 	text-transform: uppercase;
 }
@@ -5167,7 +5176,7 @@ ul.ftr_social li i:hover {
 .ftr_btm {
 	background: #111;
 	padding: 10px 0px 10px;
-	margin: 30px 0px 0px;
+	margin: 20px 0px 0px;
 }
 .ftr_btm p {
 	font-size: 12px;
@@ -5873,6 +5882,14 @@ ul.ftr_social li i:hover {
 }
 
 @media(max-width: 991px) {
+	#main-navigation-wrapper .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+    left: 0;
+}
 .request_btn {
 	display: none;
 }
@@ -6031,7 +6048,7 @@ a.request_quote {
 	display: none;
 	top: auto;
 	float: none;
-	background: #5c5b5b;
+	background: #222;
 }
 #main-navigation-wrapper .navbar-nav > li > .dropdown-submenu a {
 	color: #ffffff;
