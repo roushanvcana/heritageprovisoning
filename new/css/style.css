@@ -7737,6 +7737,7 @@ top: 10px!important;
 .meta {
     font-size: 1em;
     color: rgba(0, 0, 0, .4);
+	margin: 10px 0 20px 0;
 }
 
 .meta a {
@@ -8430,3 +8431,65 @@ top: 10px!important;
     background: #c7a877;
     color: #FFFFFF;
 }
+
+/* career-section */
+
+/* .blog-section */
+
+.blog-section{
+	padding: 100px 50px 100px 50px;
+	background: #F7F7F7;
+}
+
+.blog-section .container .row .blog-heading{
+	text-align: center;
+	margin: 0 0 50px 0;
+}
+
+.blog-section .container .row .blog-heading h4{
+	color: #71ab71;
+	margin: 0 0 10px 0;
+}
+
+.blog-section .container .row .blog-heading h2{
+	color: #c7a877;
+}
+
+.blog-section .container .row .blog-card-1, .blog-card-2, .blog-card-3, .blog-card-4, .blog-card-5, .blog-card-6{
+	position: relative;
+	height: 500px;
+}
+
+.blog-section .container .row .blog-card .card-block .link-button{
+	position: absolute;
+}
+
+.blog-section .container .row .card .card-block h4{
+	color: #977137;
+}
+
+/* .blog-section .container .row .blog-card-2{
+	background-image: url(../images/blog/blog-13-768x512.jpg);
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all .3s ease;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform-style: preserve-3d;
+}
+
+.blog-section .container .row .blog-card-2 .card-block a{
+	color: #FFFFFF;
+}
+
+.blog-section .container .row .blog-card-2 .card-block h4{
+	color: #FFFFFF;
+}
+
+.blog-section .container .row .blog-card-2 .card-block .card-text p{
+	color: #FFFFFF;
+} */
+
+/* .blog-section */
+
