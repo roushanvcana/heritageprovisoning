@@ -1956,7 +1956,7 @@ a.view-all.slide_contact_btn.slide_service_btn.get_quote_btn {
 .side-img {
 	position: relative;
 	top: 0px;
-	left: 20px;
+	/* left: 20px; */
 	height: 100%;
 	width: 100%;
 }

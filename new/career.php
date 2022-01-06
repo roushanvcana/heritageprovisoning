@@ -1,45 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>HERITAGE</title>
-<!-- mobile responsive meta-->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href = "http://fonts.cdnfonts.com/css/arial " rel = "stylesheet">
-<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>             
-<!-- main stylesheet-->
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/about.css"> 
-</head>
-<body>
-   
-<!-- Navbar Start-->
-<nav id="main-navigation-wrapper" class="navbar navbar-default finance-navbar">
-    <div class="container-fluid">
-     <div class="navbar-header">
-      <div class="logo-menu"> <a href="index.html"> <img src="images/logo/logo-header.png" alt=""> </a></div>
-      <button type="button" data-toggle="collapse" data-target="#main-navigation" aria-expanded="false" class="navbar-toggle collapsed"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-     </div>
-     <div id="main-navigation" class="collapse navbar-collapse"> <a href="index.html" class="logo fl"><img src="images/logo/logo-header.png" alt=""></a>
-      <ul class="nav navbar-nav">
-       <li class="dropdown"><a href="about.html">ABOUT</a></li>
-       <li class="dropdown"><a href="locations.html" class="nav_drop_ar">LOCATIONS</a>
-        <ul class="dropdown-submenu">
-         <li><a href="usa.html">Usa</a></li>
-         <li><a href="france.html">France</a></li>
-        </ul>
-       </li>
-       <li class="dropdown"><a href="loyalty.html">LOYALTY</a></li>
-       <li class="dropdown"><a href="career.html">CAREERS</a> </li>
-       <li><a href="blog.html">BLOG</a> </li>
-      </ul>
-     </div>
-    </div>
-   </nav>
-   <!-- Navbar End-->
-<div class="stripe_notification">
- <h3>NOTIFICATION BAR LINKING TO PAGE OF OUR CHOICE</h3>
-</div>
+<?php include('common/header.php');?>
 
 <div class="subheader normal-bg section-padding">
     <div class="overlay overlay-bg-theme"></div>
@@ -85,7 +44,7 @@
              <div class="col-md-6 col-lg-6 col-xs-12">
                  <div class="career-image">
                
-                    <div id="owl-carousel" class="owl-carousel owl-theme">
+                    <div id="owl-caro" class="owl-carousel owl-theme">
                         <div class="item"> 
                         <img src="images/about/slider-images/marijuana-plants-that-are-legally-planted-wooden-floors_1150-20367.jpg" alt="slide 1">
                       </div>
@@ -308,78 +267,4 @@
          <!-- post-section -->
  
 
-  
-<!-- Footer_Wrapper Start-->
-<footer class="wdt-100"> 
- <!-- Footer_Container Start-->
- <div class="container">
-  <div class="row">
-   <div class="col-lg-12 ftr_txt_div">
-    <img src="images/logo/Heritage Provisioning Logo - Tan - 750px.png" alt="image"> </div>
-   <div class="col-lg-12 col-md-12 col-sm-16 col-xs-12 ftr_nav">
-    <div class="footer_menu"> 
-        <a href="about.html">About</a> 
-      <a href="locations.html">Locations</a> 
-      <a href="loyalty.html">Loyalty</a> 
-      <a href="career.html">Careers</a> 
-      <a href="blog.html">Blog</a> 
-     </div>
-   </div>
-  </div>
- </div>
- <!-- Footer_Container End--> 
- <!-- Copyright Start-->
- <div class="ftr_btm">
-  <div class="container">
-   <div class="row">
-    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-        <p>&copy;<script>document.write(new Date().getFullYear());</script> Heritage Provisioning | All Rights Reserved | Privacy Policy | Terms of Use.
-        </p>
-     <!-- <p>Copyright 2021 All Rights Reserved, Privacy Policy | Terms of Use</p> -->
-    </div>
-   </div>
-  </div>
- </div>
- <!-- Copyright End--> 
-</footer>
-<!-- Footer_Wrapper End--> 
-<!-- helper js--> 
-<script src="js/jquery.min.js"></script> 
-<script src="js/bootstrap.min.js"></script> 
-<script src="js/jquery.touchSwipe.min.js"></script> 
-<script src="js/theme.js"></script> 
-<!--<script src="js/responsive_bootstrap_carousel.js"></script>-->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> 
-<script>
-	    $('#owl-carousel').owlCarousel({
-        loop:true,
-       // margin:10,
-        dots: false,
-		autoplay:true,
-        // nav: true,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:1
-            },
-            1000:{
-                items:1
-            }
-        }
-    })
-	</script>
-
-    <script>
-        $(function(){
-    //$(".chevron-down").
-    $("div[data-toggle=collapse]").click(function(){
-        $(this).children('span').toggleClass("fa-chevron-down fa-chevron-up");
-    });
-})
-    </script>
-</body>
-</html>
+ <?php include('common/footer.php');?> 
